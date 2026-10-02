@@ -1,0 +1,66 @@
+{
+  "note": "虚构样例：海外学校巡演前索要的 bilingual 讲义与演示视频对应的知识单元，仅用于演示与测试，不含真实个人信息。",
+  "units": [
+    {
+      "unit_id": "KU-MIANSU-001",
+      "kind": "TECHNIQUE",
+      "title": "面塑基础手法讲义",
+      "community": "面塑传承共同体（虚构）",
+      "license": {
+        "public_regions": ["EU", "CN"],
+        "audience_min_age": 6,
+        "attribution": { "required": true, "text": "面塑技艺 · 面塑传承共同体" },
+        "recording_allowed": false,
+        "commercial_use": false,
+        "expires_at": "2027-01-01T00:00:00+08:00"
+      },
+      "content": { "handout": "面塑揉、捏、剪、挑基础手法（公开部分）", "lang": ["zh", "en"] }
+    },
+    {
+      "unit_id": "KU-CHAYI-001",
+      "kind": "STORY",
+      "title": "茶艺待客典故",
+      "community": "茶艺传承共同体（虚构）",
+      "license": {
+        "public_regions": ["EU", "NA"],
+        "audience_min_age": 0,
+        "attribution": { "required": true, "text": "茶艺典故 · 茶艺传承共同体" },
+        "recording_allowed": true,
+        "commercial_use": false,
+        "expires_at": "2026-12-01T00:00:00+08:00"
+      },
+      "content": { "story": "以茶待客的公开典故三则", "lang": ["zh", "en"] }
+    },
+    {
+      "unit_id": "KU-WENYANG-001",
+      "kind": "MEDIA",
+      "title": "民族纹样演示视频（公开图样）",
+      "community": "民族纹样共同体（虚构）",
+      "license": {
+        "public_regions": ["EU"],
+        "audience_min_age": 0,
+        "attribution": { "required": true, "text": "民族纹样 · 民族纹样共同体" },
+        "recording_allowed": true,
+        "commercial_use": true,
+        "expires_at": "2026-11-01T00:00:00+08:00"
+      },
+      "content": { "video": "公开图样演示 8 分钟", "note": "不含可商业复刻的未公开图样" }
+    },
+    {
+      "unit_id": "KU-CHAYI-001-EN",
+      "kind": "TRANSLATION",
+      "title": "茶艺待客典故英译稿",
+      "community": "茶艺传承共同体（虚构）",
+      "derived_from": "KU-CHAYI-001",
+      "license": {
+        "public_regions": ["EU", "NA"],
+        "audience_min_age": 0,
+        "attribution": { "required": true, "text": "茶艺典故 · 茶艺传承共同体" },
+        "recording_allowed": true,
+        "commercial_use": false,
+        "expires_at": "2026-12-01T00:00:00+08:00"
+      },
+      "content": { "translation_of": "KU-CHAYI-001", "lang": "en" }
+    }
+  ]
+}
