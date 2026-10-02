@@ -2,8 +2,25 @@
   "event_id": "sample-008-001",
   "kind": "KNOWLEDGE_REGISTERED",
   "occurred_at": "2026-09-20T09:00:00+08:00",
-  "subject_id": "demo-008",
+  "subject_id": "sample-dough-001",
   "payload": {
-    "note": "虚构资料，仅用于格式核对"
+    "note": "虚构资料，仅用于格式核对，不含真实个人信息",
+    "unit_id": "sample-dough-001",
+    "version": "1.0",
+    "kind": "TECHNIQUE",
+    "title": "样例：面塑公开手法",
+    "sensitivity": "RESTRICTED",
+    "aspects": ["PUBLIC_TECHNIQUE", "INTERNAL_ORAL"],
+    "source_community": {
+      "community_id": "C-SAMPLE",
+      "name": "虚构共同体",
+      "region": "CN-XX"
+    },
+    "custodian": {
+      "custodian_id": "P-SAMPLE",
+      "name": "虚构传承人",
+      "role": "面塑传承人"
+    },
+    "body_hash": "0000000000000000000000000000000000000000000000000000000000000000"
   }
 }
